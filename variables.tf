@@ -24,3 +24,8 @@ variable "aws_instance_key" {
   description = "Name of the EC2 key"
   default     = "instruqt"
 }
+
+variable "aws_instance_region" {
+  description = "Region of the EC2 instance"
+  default     = "us-east-2"
+}
